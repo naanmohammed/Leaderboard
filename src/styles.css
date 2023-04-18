@@ -14,20 +14,19 @@
 
 .recent_scores_header h2 {
   margin-top: 0;
-  min-width: fit-content;
 }
 
 .recent_scores_header button {
   border: 2px solid black;
   border-radius: 0.25rem;
-  height: fit-content;
+  height: 30px;
   padding: 0.15rem 0.5rem;
 }
 
 .recent_scores_list {
   list-style: none;
   margin: 0;
-  padding: 0px;
+  padding: 0;
   border: black solid 2px;
 }
 
@@ -57,7 +56,7 @@
 
 .add_score input {
   border: 2px solid black;
-  height: fit-content;
+  height: 15px;
   padding: 0.35rem;
 }
 
