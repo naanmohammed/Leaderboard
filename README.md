@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 LeaderboardWebsite <a name="about-project"></a>
+# 📖 Leaderboard Website <a name="about-project"></a>
 
 Leaderboard is a simple website that fetches data from an external api.
 
