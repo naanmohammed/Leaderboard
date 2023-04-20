@@ -23,20 +23,20 @@
   padding: 0.15rem 0.5rem;
 }
 
-.recent_scores_list {
+#recentScoresList {
   list-style: none;
   margin: 0;
   padding: 0;
   border: black solid 2px;
 }
 
-.recent_scores_list li {
+#recentScoresList li {
   padding: 0.15rem 0.5rem;
   min-width: 12.5rem;
   border-bottom: 1px solid #ccc;
 }
 
-.recent_scores_list li:nth-child(even) {
+#recentScoresList li:nth-child(even) {
   background-color: lightgray;
 }
 
