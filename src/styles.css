@@ -1,6 +1,7 @@
 body {
   background-color: blanchedalmond;
 }
+
 .container {
   display: flex;
   gap: 3rem;
@@ -24,6 +25,7 @@ body {
   from {
     transform: rotateY(0deg);
   }
+
   to {
     transform: rotateY(360deg);
   }
@@ -37,7 +39,6 @@ body {
   padding: 0.15rem 0.5rem;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
   animation: changeColor 4s linear infinite;
 }
 
@@ -45,12 +46,22 @@ body {
   0% {
     background-color: rgb(155, 33, 33);
   }
+
   50% {
     background-color: rgb(26, 235, 26);
   }
+
   100% {
     background-color: rgb(238, 6, 103);
   }
+}
+
+.add_score form button {
+  background-color: rgb(155, 33, 33);
+  width: fit-content;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
 
 .recent_scores_header button:hover {
@@ -69,6 +80,7 @@ body {
   from {
     transform: scale(1);
   }
+
   to {
     transform: scale(1.05);
   }
@@ -83,7 +95,7 @@ body {
 
 #recentScoresList li:hover {
   transform: scale(1.1);
-  font-size:xx-large
+  font-size: xx-large;
 }
 
 #recentScoresList li:nth-child(odd) {
@@ -108,14 +120,6 @@ body {
   border: 2px solid black;
   height: 15px;
   padding: 0.35rem;
-}
-
-.add_score form button {
-  background-color: rgb(155, 33, 33);
-  width: fit-content;
-  align-self: flex-end;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
 }
 
 .add_score form button:hover {
