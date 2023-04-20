@@ -16,9 +16,9 @@ export const submitScore = async (event) => {
   await fetch(`${baseURL}/games/${gameID}/scores/`, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
     },
-    body: JSON.stringify(data)
+    body: JSON.stringify(data),
   });
 
   document.getElementById('nameInput').value = '';
